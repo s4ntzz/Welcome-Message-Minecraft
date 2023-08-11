@@ -26,10 +26,10 @@ public class WelcomeScreen
       RenderUtil.drawRect(0, 0, mc.displayWidth, mc.displayHeight, new Color(127,255,212).getRGB());
       ScreenUtil.renderGray();
 
-      Fonts.JETBRAI_MONO_20.drawCenteredStringWithShadow("Sample Minecraft WelcomeScreen Code", sr.getScaledWidth() / 2, sr.getScaledHeight() / 2 - 30, -1);
-      Fonts.JETBRAI_MONO_15.drawCenteredStringWithShadow("Created by dinoshuu", sr.getScaledWidth() / 2, sr.getScaledHeight() / 2, -1);
+      Fonts.JETBRAINS_MONO_20.drawCenteredStringWithShadow("Sample Minecraft WelcomeScreen Code", sr.getScaledWidth() / 2, sr.getScaledHeight() / 2 - 30, -1);
+      Fonts.JETBRAINS_MONO_15.drawCenteredStringWithShadow("Created by dinoshuu", sr.getScaledWidth() / 2, sr.getScaledHeight() / 2, -1);
       
-      Fonts.JETBRAI_MONO_13.drawCenteredStringWithShadow(EnumChatFormatting.UNDERLINE + "Github: dinoshuu! ", sr.getScaledWidth() / 2 + 1, sr.getScaledHeight() / 2 + 30, -1);
+      Fonts.JETBRAINS_MONO_13.drawCenteredStringWithShadow(EnumChatFormatting.UNDERLINE + "Github: dinoshuu! ", sr.getScaledWidth() / 2 + 1, sr.getScaledHeight() / 2 + 30, -1);
 
     } catch(Exception e) {
       e.printStackTrace();
